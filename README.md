@@ -10,6 +10,6 @@ Creating a Sign Up with Neumorphism using HTML and CSS.
 * CSS - Project Styles.
 
 ## Deployment
-You can visit de project wit this link:
+You can visit de project with this link:
 
 * [GitHub Pages](https://ketzalif.github.io/SignUp-Neumorphism/).
