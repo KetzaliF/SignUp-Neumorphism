@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="./sign-up.css">
+   <title>Sign Up | FoxApp</title>
+</head>
+<body>
+   <div class="container">
+      <div class="sign-up">
+         <img src="./assets/icon-back.svg" alt="arrow back" class="icon-back">
+
+         <figure class="sign-up__logo">
+            <img src="./assets/fox-logo.png" alt="fox logo" class="logo">
+         </figure>
+
+         <div class="sign-up__title">
+            <p class="title">Welcome to FoxApp!</p>
+            <p class="txt">Create a new account</p>
+         </div>
+
+         <form class="sign-up__form">
+            <label for="user" class="sign-up__form-label">User Name</label>
+            <input type="text" id="user" class="input" placeholder="Foxi" autocomplete="off">
+
+            <label for="email" class="sign-up__form-label">Email</label>
+            <input type="email" id="email" class="input" placeholder="foxi@foxapp.com" autocomplete="off">
+
+            <label for="password" class="sign-up__form-label">Passwrord</label>
+            <input type="password" id="password" class="input" placeholder="*********">
+
+            <button type="submit" class="sign-up__btn">SIGN UP</button>
+         </form>
+      </div>
+   </div>
+</body>
+</html>

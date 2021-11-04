@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;800&display=swap');
+
+:root{
+   --bg: #ECF0F3;
+   --orange: #F4B759;
+   --light-orange: #CCB899;
+   --brown: #8C6528;
+}
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Mulish', sans-serif;
+}
+
+body{
+   background: var(--bg);
+}
+
+.container{
+   height: 100vh;
+   display: grid;
+   place-items: center;
+}
+
+.sign-up{
+   width: 100%;
+   max-width: 375px;
+   height: auto;
+   background: var(--bg);
+   padding: 20px 20px 27px 20px;
+   box-shadow: 10px 10px 20px rgba(85, 85, 85, .21), -10px -10px 20px rgb(255, 255, 255);
+}
+
+.icon-back{
+   width: 24px;
+   cursor: pointer;
+}
+
+.sign-up__logo{
+   width: 100px;
+   height: 100px;
+   border-radius: 50%;
+   background: var(--bg);
+   box-shadow: 4px 4px 10px rgba(85, 85, 85, .21), -4px -4px 10px rgb(255, 255, 255);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 20px auto;
+}
+
+.sign-up__title{
+   text-align: center;
+}
+
+.title{
+   font-size: 1.87em;
+   font-weight: 800;
+   color: var(--orange);
+}
+
+.txt{
+   font-size: 1.12em;
+   font-weight: 400;
+   color: var(--light-orange);
+   margin-bottom: 20px;
+}
+
+.sign-up__form-label{
+   display: block;
+   font-size: 1em;
+   color: var(--brown);
+   margin-bottom: 10px;
+   font-weight: 600;
+}
+
+.input{
+   width: 100%;
+   height: 40px;
+   color: var(--brown);
+   font-weight: 400;
+   background: var(--bg);
+   outline: none;
+   border: none;
+   border-radius: 11px;
+   box-shadow: inset 4px 4px 10px rgba(85, 85, 85, .21), inset -4px -4px 10px rgb(255, 255, 255);
+   padding-left: 10px;
+   margin-bottom: 20px;
+}
+
+::placeholder{
+   font-size: 1.12em;
+   color: var(--light-orange);
+   font-weight: 400;
+}
+
+.sign-up__btn{
+   display: block;
+   padding: 8px 60px;
+   border: 2px solid var(--orange);
+   border-radius: 11px;
+   background: var(--bg);
+   box-shadow: 4px 4px 10px rgba(85, 85, 85, .21), -4px -4px 10px rgb(255, 255, 255);
+   font-weight: 800;
+   font-size: 1.12em;
+   margin: 7px auto 0 auto;
+   color: var(--orange);
+   cursor: pointer;
+   transition: all 0.5s;
+}
+
+.sign-up__btn:hover{
+   background: var(--orange);
+   color: var(--bg);
+}
